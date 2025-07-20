@@ -31,7 +31,6 @@ class Kernel extends HttpKernel
         'api' => [
             \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
-            // ⛔ Do NOT add HandleCors here — it’s already global
         ],
     ];
 }
