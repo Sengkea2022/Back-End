@@ -48,4 +48,6 @@ class AuthController extends Controller
             'token' => $token
         ]);
     }
+
+    public function signout(Request $request) {}
 }
