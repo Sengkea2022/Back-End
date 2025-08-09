@@ -50,6 +50,6 @@ class AuthController extends Controller
     }
 
     public function signout(Request $request) {
-        
+
     }
 }
